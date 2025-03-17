@@ -1,0 +1,95 @@
+* {
+    font-family: 'Product sans';
+    
+  }
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(conditionPic/BACKDROP_DESIGN_VECTOR_3.jpg);
+    background-size: cover;
+}
+.txt{
+    font-size: 1.5vw;
+    margin-left: 100px;
+}
+.txt p{
+    color: white;
+}
+.txt span{
+    color: aqua;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+.box1{
+    width: 40%;
+    height: 400px;
+    /* margin-top: 100px; */
+    margin-left: 100px;
+    float: left;
+}
+.box1 h1{
+    font-size: 5vw;
+    color: white;
+}
+.box1 p{
+    color: rgb(196, 196, 255);
+    font-size: 1.5vw;
+}
+
+.box2{
+    width: 40%;
+    height: 600px;
+    background-color: #f4f4f4;
+    float: right;
+    margin-right: 100px;
+    margin-top: 40px;
+    text-align: center;
+}
+.box2 h3{
+    color: red;
+}
+/* .box2 p{
+    text-align: center;
+    color: rgb(158, 158, 255);
+    margin-top: -30px;
+}
+.contact {
+    background: #f4f4f4;
+    padding: 4rem 2rem;
+}
+
+.contact h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+} */
+
+
+/* .form-group {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+} */
+
+input{
+    width: 90%;
+    padding: 0.8rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+button {
+    background: #e8491d;
+    color: #fff;
+    padding: 1rem 3.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

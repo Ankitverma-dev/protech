@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="conditionForm.css">
+</head>
+
+<body>
+    <div class="txt">
+        <p>Listing<span>Spark</span></p>
+    </div>
+
+    <div class="container">
+
+        <div class="box1">
+            <h1>Sell Your Home <br>
+                On Your TermsI</h1>
+
+            <p>We've created the smartest way to sell your home <br>
+                by creating the smartest way to pay
+            </p>
+        </div>
+
+        <div class="box2">
+            <p>Create Your Free Acount
+                And Find Out What Everyone <br>
+                is Talking About</p> <br>
+            <h3>Contact Us</h3>
+
+            <form onsubmit="return data()" action="abc.html">
+
+                <input type="text" id="n1">
+                <input type="text" id="n2">
+                <input type="password" name="" id="n3">
+                <input type="password" name="" id="n4"><br><br>
+                <button type="submit" value="Submit Your Data"></button>
+            </form>
+
+            <script>
+                function data() {
+                    var a = document.getElementById("n1").value;
+                    var b = document.getElementById("n2").value;
+                    var c = document.getElementById("n3").value;
+                    var d = document.getElementById("n4").value;
+
+                    if (a == "" || b == "" || c == "" || d == "" ||) {
+                        alert("All Fields are mendatory");
+                        return false;
+                    }
+                    else if (c.length < 10 || c.length > 10) {
+                        alert("Number should be of 10 digits ! Please enter valid number");
+                        return false;
+                    }
+
+                    else {
+                        true;
+                    }
+                }
+            </script>
+
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
